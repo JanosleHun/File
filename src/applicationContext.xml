@@ -7,12 +7,12 @@
 		xmlns="http://www.springframework.org/schema/beans">
 
 
-<bean id="kiirbean" class="hu.file.Kiir">
-        <constructor-arg value="src/szoveg.txt"/>
+<bean id="kiir" class="hu.file.Kiir">
+        <property name="bevitt" value="src/szoveg.txt"/>
     </bean>
 
-    <bean id="beolvasbean" class="hu.file.Beolvas">
-        <constructor-arg value="src/szoveg.txt"/>
+    <bean id="beolvas" class="hu.file.Beolvas">
+        <property name="tomb" value="src/szoveg.txt"/>
     </bean>
 
     <bean id="megjelenit" class="hu.file.Megjelenit">

@@ -19,8 +19,8 @@ public class Kiir {
 		return bevitt;
 	}
 	
-	public void setBevitt(String string) {
-		this.bevitt=scan.next();
+	public void setBevitt(String bevitt) {
+		Kiir.bevitt=scan.next();
 	}
 		
 	
