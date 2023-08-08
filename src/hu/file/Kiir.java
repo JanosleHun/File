@@ -4,11 +4,13 @@ import java.io.*;
 import java.util.*;
 
 public class Kiir {
-	static Scanner scan = new Scanner(System.in);
+	
 	static String bevitt = null;
 	
 	public static void bevitel() {	
+		
 		System.out.println("Kérem adja meg a szöveget:");
+		Scanner scan = new Scanner(System.in);
 		bevitt = scan.next();
 		scan.close();
 		System.out.println("A bevitt szöveg:");
@@ -20,7 +22,7 @@ public class Kiir {
 	}
 	
 	public void setBevitt(String bevitt) {
-		Kiir.bevitt=scan.next();
+		Kiir.bevitt=bevitt;
 	}
 		
 	
